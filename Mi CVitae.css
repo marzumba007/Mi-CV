@@ -1,0 +1,141 @@
+/*your CSS code here*/
+body {
+    font-family:   'Segoe UI', 
+                    Tahoma, 
+                    Geneva, 
+                    Verdana, 
+                    sans-serif;
+}
+
+.intro{
+    background-color:rgb(204, 133, 39);
+    color: #302a41;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-shadow: 4px 4px 8px rebeccapurple;
+    
+}
+
+#profimg {
+    height: 185px;
+    width: 185px;
+    border-radius: 50%;
+}
+
+img{
+    float: right;
+    vertical-align: middle;
+}
+
+.heading{
+    font-size:40px;
+    font-weight: bolder;
+    text-transform: uppercase;        
+}
+
+.prof{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contactinfo{
+    font-size: 15px;
+    padding-left: 16px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: 3px;
+    background-color: #b1b1b1;
+}
+
+.icon{
+    float: left;
+    color: #302a41;
+    width: 25px;
+}
+
+.subheading{
+    font-size: 20px;;
+    font-weight: bolder;
+    color: #302a41;
+    text-transform: uppercase;
+    padding-left: 16px;
+    text-shadow: 2px 2px 4px rebeccapurple;
+           
+}
+
+.explist {
+    background-color: rgba(146, 129, 106, 0.637);
+    padding: 10px;
+}
+
+.skills ul li{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -15px;
+    color: #2F5A78;
+}
+
+.skill_name{
+    width: 4px;
+    font-weight: bold;
+}
+
+.skills ul li .skill_prog{
+    width: 75%;
+    height: 5px;
+    position: relative;
+}
+
+.skills ul li .skill_prog span{
+    position: absolute;
+    height: 100%;   
+    background: darkcyan;
+    padding-right: 40px;
+}
+
+.skill_per{
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.date{
+    font-size: 16px;
+    color: #2F5A78;
+    font-weight: bold;
+}
+
+.jobtitle{
+    font-size: 18px;
+    font-weight: bolder;
+    color: darkcyan;
+}
+
+.social{
+    padding-left: 25px;
+}
+
+.social a .icon{
+    width: 100%;
+}
+
+.fa-facebook-square::before {
+    padding-right: 10px;
+}
+.fa-twitter-square::before {
+    padding-right: 10px;
+}
+.fa-linkedin::before {
+    padding-right: 10px;
+}
+.fa-github::before {
+    padding-right: 10px;
+}
+
+.data a {
+    text-decoration: dashed;
+}
